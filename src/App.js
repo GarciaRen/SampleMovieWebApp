@@ -23,7 +23,7 @@ const App = () => {
   const withMovie = () => {
     return (
       sliceArr.length > 0 && (
-        <div className="h-full grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-3">
+        <div className="h-full grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-3">
           {sliceArr.map((data) => {
             return <Card movie={data} />;
           })}

@@ -4,7 +4,7 @@ const Card = (props) => {
   const { Title, Poster } = props.movie;
 
   return (
-    <div className="text-white w-[125px] h-[165px] justify-items-center mx-auto flex flex-col bg-slate-600 rounded-md hover:scale-110 duration-200">
+    <div className="text-white w-[135px] h-[165px] justify-items-center mx-auto flex flex-col bg-slate-600 rounded-md hover:scale-110 duration-200">
       <img
         src={Poster}
         className="h-28 w-auto rounded-t-md bg-cover"
