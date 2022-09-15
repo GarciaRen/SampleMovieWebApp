@@ -34,7 +34,7 @@ const App = () => {
   const withoutMovie = () => {
     return (
       !sliceArr.length && (
-        <div className="h-auto flex flex-col items-center text-white py-24">
+        <div className="h-auto flex flex-col items-center text-white py-24 animate__animated animate__fadeInLeftBig">
           <h1 className="font-bold font-serif"> No movie/s found ..... </h1>
         </div>
       )
